@@ -1,0 +1,901 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="تعرّف على فئات المفروشات المنزلية لدى دون جوان للمفروشات. استفسر عن أطقم الملايات والبطاطين والمفارش والكوفرتات عبر واتساب.">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="دون جوان للمفروشات | Dongwan Tex">
+  <meta property="og:description" content="استكشف فئات المفروشات المنزلية وتواصل للاستفسار عن المنتجات المتاحة.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80">
+  <title>دون جوان للمفروشات | Dongwan Tex</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              DEFAULT: "#D4AF37",
+              light: "#F3E5AB",
+              dark: "#AA8C2C"
+            },
+            darkBg: "#0f172a",
+            cardBg: "#1e293b"
+          },
+          fontFamily: {
+            cairo: ["Cairo", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --gold: #D4AF37;
+      --background: #0f172a;
+      --card: #1e293b;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 6rem;
+    }
+
+    body {
+      font-family: "Cairo", sans-serif;
+      overflow-wrap: anywhere;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a, button {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 4px;
+    }
+
+    .gold-gradient {
+      background: linear-gradient(135deg, #F3E5AB, #D4AF37 55%, #AA8C2C);
+    }
+
+    .hero-pattern {
+      background-image: radial-gradient(
+        rgba(212, 175, 55, 0.16) 1px,
+        transparent 1px
+      );
+      background-size: 20px 20px;
+    }
+
+    .product-image {
+      transition: transform 450ms ease;
+    }
+
+    .product-card:hover .product-image {
+      transform: scale(1.045);
+    }
+
+    .section-heading::after {
+      content: "";
+      display: block;
+      width: 64px;
+      height: 3px;
+      background: var(--gold);
+      border-radius: 99px;
+      margin: 16px auto 0;
+    }
+
+    .mobile-menu-panel {
+      max-height: calc(100dvh - 5rem);
+      overflow-y: auto;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-darkBg text-gray-100 antialiased selection:bg-gold selection:text-black">
+
+  <a
+    href="#main-content"
+    class="fixed top-2 right-2 z-[100] -translate-y-20 focus:translate-y-0 bg-gold text-black font-bold px-4 py-3 rounded-lg transition-transform"
+  >
+    تخطَّ إلى المحتوى
+  </a>
+
+  <!-- Header -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-darkBg/95 backdrop-blur-xl border-b border-gold/20">
+    <div class="container mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-3">
+
+      <a
+        href="#hero"
+        class="flex items-center gap-2 sm:gap-3 rounded-lg shrink-0"
+        aria-label="دون جوان للمفروشات - الرئيسية"
+      >
+        <span class="w-10 h-10 rounded-full gold-gradient flex items-center justify-center text-black font-black text-xl shadow-lg">
+          D
+        </span>
+
+        <span>
+          <span class="block text-lg sm:text-xl font-extrabold text-gold leading-tight">
+            دون جوان
+          </span>
+          <span class="block text-[9px] sm:text-[10px] text-gray-400 tracking-[0.18em] mt-1" dir="ltr">
+            DONGWAN TEX
+          </span>
+        </span>
+      </a>
+
+      <nav
+        class="hidden md:flex items-center gap-4 lg:gap-7 text-sm font-semibold"
+        aria-label="التنقل الرئيسي"
+      >
+        <a href="#hero" class="hover:text-gold transition-colors">الرئيسية</a>
+        <a href="#about" class="hover:text-gold transition-colors">عن النشاط</a>
+        <a href="#products" class="hover:text-gold transition-colors">المنتجات</a>
+        <a href="#branches" class="hover:text-gold transition-colors">الفروع</a>
+        <a href="#contact" class="hover:text-gold transition-colors">تواصل معنا</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a
+          href="https://wa.me/201000090216"
+          data-wa
+          data-message="السلام عليكم، أود الاستفسار عن منتجات دون جوان للمفروشات."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hidden sm:flex items-center justify-center gap-2 gold-gradient text-black font-bold px-3 lg:px-4 py-2.5 rounded-full hover:brightness-110 transition text-xs lg:text-sm"
+        >
+          <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+          <span>تواصل معنا</span>
+        </a>
+
+        <button
+          id="menu-btn"
+          type="button"
+          class="md:hidden w-11 h-11 flex items-center justify-center rounded-xl bg-cardBg border border-gold/30 text-gold"
+          aria-label="فتح القائمة الرئيسية"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <i id="menu-icon" class="fa-solid fa-bars text-xl" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobile-menu"
+      class="hidden md:hidden bg-cardBg border-t border-gold/20 mobile-menu-panel"
+      aria-hidden="true"
+      inert
+    >
+      <nav class="container mx-auto px-5 py-4 flex flex-col" aria-label="قائمة الموبايل">
+        <a href="#hero" class="mobile-nav-link py-3 border-b border-white/10 hover:text-gold">الرئيسية</a>
+        <a href="#about" class="mobile-nav-link py-3 border-b border-white/10 hover:text-gold">عن النشاط</a>
+        <a href="#products" class="mobile-nav-link py-3 border-b border-white/10 hover:text-gold">المنتجات</a>
+        <a href="#branches" class="mobile-nav-link py-3 border-b border-white/10 hover:text-gold">فروعنا</a>
+        <a href="#contact" class="mobile-nav-link py-3 hover:text-gold">تواصل معنا</a>
+
+        <a
+          href="https://wa.me/201000090216"
+          data-wa
+          data-message="السلام عليكم، أود الاستفسار عن منتجات دون جوان للمفروشات."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-4 flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl py-3 px-4 transition"
+        >
+          <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i>
+          تواصل عبر واتساب
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section
+      id="hero"
+      class="relative overflow-hidden pt-28 pb-16 sm:pt-32 sm:pb-20 lg:pt-36"
+    >
+      <div class="absolute inset-0 hero-pattern pointer-events-none" aria-hidden="true"></div>
+      <div class="absolute -top-24 -right-24 w-72 h-72 bg-gold/10 blur-3xl rounded-full pointer-events-none" aria-hidden="true"></div>
+      <div class="absolute bottom-0 left-0 w-64 h-64 bg-indigo-500/10 blur-3xl rounded-full pointer-events-none" aria-hidden="true"></div>
+
+      <div class="container mx-auto px-4 sm:px-6 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+
+          <div class="lg:col-span-7 text-center lg:text-right">
+            <span class="inline-flex items-center gap-2 py-2 px-4 rounded-full bg-gold/10 text-gold border border-gold/25 text-xs sm:text-sm font-semibold mb-6">
+              <i class="fa-solid fa-sparkles" aria-hidden="true"></i>
+              عالم المفروشات المنزلية
+            </span>
+
+            <h1 class="text-3xl sm:text-5xl xl:text-6xl font-black mb-6 leading-[1.45] text-white">
+              لمسة أناقة وراحة
+              <span class="block text-transparent bg-clip-text bg-gradient-to-l from-gold-light via-gold to-gold-dark">
+                لكل ركن في منزلك
+              </span>
+            </h1>
+
+            <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 mb-8 leading-8">
+              اكتشف فئات المفروشات المنزلية من أطقم الملايات والبطاطين
+              إلى المفارش والكوفرتات، واستفسر عن التصميمات والمقاسات
+              والمنتجات المتاحة.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3">
+              <a
+                href="#products"
+                class="bg-gold hover:bg-gold-light text-black font-extrabold px-7 py-3.5 rounded-xl transition text-center"
+              >
+                استكشف المنتجات
+                <i class="fa-solid fa-arrow-left mr-1" aria-hidden="true"></i>
+              </a>
+
+              <a
+                href="https://wa.me/201000090216"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن منتجات دون جوان للمفروشات."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="border border-gold/40 hover:border-gold hover:bg-gold/10 px-7 py-3.5 rounded-xl font-bold text-gold transition flex items-center justify-center gap-2"
+              >
+                <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i>
+                استفسر عبر واتساب
+              </a>
+            </div>
+
+            <p class="text-gray-500 text-xs mt-5">
+              تواصل معنا لمعرفة التوافر والأسعار الحالية.
+            </p>
+          </div>
+
+          <div class="lg:col-span-5 relative max-w-xl mx-auto w-full">
+            <div class="absolute -inset-2 bg-gradient-to-br from-gold/40 to-indigo-500/20 rounded-3xl blur-xl" aria-hidden="true"></div>
+
+            <div class="relative overflow-hidden rounded-2xl border border-gold/30 shadow-2xl bg-cardBg">
+              <img
+                src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=80"
+                alt="صورة توضيحية لغرفة نوم ومفروشات منزلية"
+                width="900"
+                height="1100"
+                fetchpriority="high"
+                class="w-full h-[300px] sm:h-[430px] object-cover"
+              >
+
+              <div class="absolute inset-x-0 bottom-0 p-5 sm:p-6 bg-gradient-to-t from-black/90 via-black/45 to-transparent">
+                <span class="inline-flex items-center gap-2 text-sm sm:text-base font-bold text-white">
+                  <i class="fa-solid fa-house text-gold" aria-hidden="true"></i>
+                  تفاصيل تصنع فرقًا في منزلك
+                </span>
+                <p class="text-gray-300 text-xs sm:text-sm mt-2">
+                  الصورة تعبيرية وليست تأكيدًا على توفر منتج بعينه.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16 sm:py-20 bg-cardBg/40 border-y border-gold/10">
+      <div class="container mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+
+          <div>
+            <span class="text-gold font-bold text-sm block mb-3">عن النشاط</span>
+
+            <h2 class="text-2xl sm:text-4xl font-black mb-6 text-white leading-relaxed">
+              دون جوان للمفروشات
+              <span class="block text-gray-400 font-semibold text-lg sm:text-2xl mt-1" dir="ltr">
+                Dongwan Tex
+              </span>
+            </h2>
+
+            <p class="text-gray-300 leading-8 mb-5">
+              تعرّف على مجموعة من فئات المفروشات والمنسوجات المنزلية
+              التي تساعدك في اختيار ما يناسب منزلك، من مفروشات غرف النوم
+              إلى البطاطين والكوفرتات.
+            </p>
+
+            <p class="text-gray-400 leading-7 text-sm">
+              للاستفسار عن الخامات والمقاسات والألوان والأسعار،
+              يُرجى التواصل مع المعرض للتأكد من المنتجات المتاحة حاليًا.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+              <div class="flex items-start gap-3 p-4 rounded-xl bg-darkBg/60 border border-white/5">
+                <span class="w-10 h-10 shrink-0 rounded-lg bg-gold/10 flex items-center justify-center text-gold">
+                  <i class="fa-solid fa-store" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3 class="font-bold text-white text-sm">فروع المعرض</h3>
+                  <p class="text-gray-400 text-xs leading-6 mt-1">معلومات الفروع وطرق الوصول إليها</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 p-4 rounded-xl bg-darkBg/60 border border-white/5">
+                <span class="w-10 h-10 shrink-0 rounded-lg bg-gold/10 flex items-center justify-center text-gold">
+                  <i class="fa-solid fa-comments" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3 class="font-bold text-white text-sm">استفسارات مباشرة</h3>
+                  <p class="text-gray-400 text-xs leading-6 mt-1">تواصل لمعرفة التفاصيل والتوافر</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-cardBg p-6 sm:p-8 rounded-2xl border border-gold/20 shadow-xl">
+            <div class="flex items-center gap-3 mb-6">
+              <span class="w-11 h-11 rounded-xl gold-gradient text-black flex items-center justify-center">
+                <i class="fa-solid fa-layer-group text-lg" aria-hidden="true"></i>
+              </span>
+              <h3 class="text-lg sm:text-xl font-extrabold text-white">
+                تصفح فئات المفروشات
+              </h3>
+            </div>
+
+            <ul class="space-y-5 text-gray-300 text-sm sm:text-base">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-gold mt-1 shrink-0" aria-hidden="true"></i>
+                <span>أطقم ملايات وملايات استيك بمقاسات وتصميمات مختلفة.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-gold mt-1 shrink-0" aria-hidden="true"></i>
+                <span>بطاطين ومفروشات مناسبة لمختلف المواسم.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-gold mt-1 shrink-0" aria-hidden="true"></i>
+                <span>مفارش سرير وكوفرتات بتصميمات متنوعة.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-check text-gold mt-1 shrink-0" aria-hidden="true"></i>
+                <span>ألحفة ومنتجات منزلية يمكن الاستفسار عن تفاصيلها.</span>
+              </li>
+            </ul>
+
+            <a
+              href="#products"
+              class="mt-7 flex items-center justify-center gap-2 w-full border border-gold/30 hover:bg-gold hover:text-black text-gold font-bold rounded-xl py-3 transition"
+            >
+              عرض فئات المنتجات
+              <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-16 sm:py-20">
+      <div class="container mx-auto px-4 sm:px-6">
+
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+          <span class="text-gold font-bold text-sm block mb-3">كتالوج المنتجات</span>
+          <h2 class="section-heading text-2xl sm:text-4xl font-black text-white">
+            اكتشف الفئات الرئيسية
+          </h2>
+          <p class="text-gray-400 text-sm sm:text-base leading-7 mt-5">
+            اختر الفئة التي تبحث عنها، ثم تواصل للاستفسار عن المنتجات
+            والمقاسات والأسعار المتاحة.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-6">
+
+          <!-- Product 1 -->
+          <article class="product-card bg-cardBg rounded-2xl overflow-hidden border border-gold/20 hover:border-gold/60 transition-colors shadow-lg flex flex-col">
+            <div class="relative h-56 overflow-hidden bg-gray-800">
+              <img
+                src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=700&q=80"
+                alt="صورة توضيحية لمفروشات السرير"
+                width="700"
+                height="500"
+                loading="lazy"
+                decoding="async"
+                class="product-image w-full h-full object-cover"
+              >
+              <span class="absolute top-3 right-3 bg-darkBg/90 text-gold text-xs font-bold px-3 py-1.5 rounded-lg border border-gold/20">
+                الفئة الأولى
+              </span>
+            </div>
+
+            <div class="p-5 flex flex-col flex-1">
+              <h3 class="text-lg font-extrabold text-white mb-3">أطقم الملايات</h3>
+              <p class="text-gray-400 text-sm leading-7 flex-1">
+                استفسر عن الأطقم والمقاسات والألوان المتاحة للاستخدام اليومي.
+              </p>
+              <a
+                href="https://wa.me/201000090216"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن أطقم الملايات والمقاسات المتاحة."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-5 w-full flex items-center justify-center gap-2 bg-gold/10 hover:bg-gold text-gold hover:text-black font-bold py-3 rounded-xl transition text-sm"
+              >
+                <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+                استفسر عن المنتجات
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-card bg-cardBg rounded-2xl overflow-hidden border border-gold/20 hover:border-gold/60 transition-colors shadow-lg flex flex-col">
+            <div class="relative h-56 overflow-hidden bg-gray-800">
+              <img
+                src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80"
+                alt="صورة توضيحية لمفروشات منزلية شتوية"
+                width="700"
+                height="500"
+                loading="lazy"
+                decoding="async"
+                class="product-image w-full h-full object-cover"
+              >
+              <span class="absolute top-3 right-3 bg-darkBg/90 text-gold text-xs font-bold px-3 py-1.5 rounded-lg border border-gold/20">
+                الفئة الثانية
+              </span>
+            </div>
+
+            <div class="p-5 flex flex-col flex-1">
+              <h3 class="text-lg font-extrabold text-white mb-3">البطاطين</h3>
+              <p class="text-gray-400 text-sm leading-7 flex-1">
+                تعرّف على الأنواع والمقاسات ودرجات التدفئة المتوفرة.
+              </p>
+              <a
+                href="https://wa.me/201000090216"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن البطاطين والأنواع والأسعار المتاحة."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-5 w-full flex items-center justify-center gap-2 bg-gold/10 hover:bg-gold text-gold hover:text-black font-bold py-3 rounded-xl transition text-sm"
+              >
+                <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+                استفسر عن المنتجات
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-card bg-cardBg rounded-2xl overflow-hidden border border-gold/20 hover:border-gold/60 transition-colors shadow-lg flex flex-col">
+            <div class="relative h-56 overflow-hidden bg-gray-800">
+              <img
+                src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80"
+                alt="صورة توضيحية لسرير بمفروشات أنيقة"
+                width="700"
+                height="500"
+                loading="lazy"
+                decoding="async"
+                class="product-image w-full h-full object-cover"
+              >
+              <span class="absolute top-3 right-3 bg-darkBg/90 text-gold text-xs font-bold px-3 py-1.5 rounded-lg border border-gold/20">
+                الفئة الثالثة
+              </span>
+            </div>
+
+            <div class="p-5 flex flex-col flex-1">
+              <h3 class="text-lg font-extrabold text-white mb-3">مفارش السرير</h3>
+              <p class="text-gray-400 text-sm leading-7 flex-1">
+                استفسر عن التصميمات والخامات والأطقم المناسبة لغرفة نومك.
+              </p>
+              <a
+                href="https://wa.me/201000090216"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن مفارش السرير والتصميمات المتاحة."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-5 w-full flex items-center justify-center gap-2 bg-gold/10 hover:bg-gold text-gold hover:text-black font-bold py-3 rounded-xl transition text-sm"
+              >
+                <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+                استفسر عن المنتجات
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 4: Updated Comforter Image -->
+          <article class="product-card bg-cardBg rounded-2xl overflow-hidden border border-gold/20 hover:border-gold/60 transition-colors shadow-lg flex flex-col">
+            <div class="relative h-56 overflow-hidden bg-gray-800">
+              <img
+                src="https://web-pro-resources.s3.us-east-2.amazonaws.com/public/optimized-resources/product/a8450d2e-8355-4152-b40d-4d7e14a6b724/image/edredon-jgo-f-beige-mink-100poli_1774018672456-600x600.jpg"
+                alt="صورة توضيحية لكوفرت سرير مبطن باللون البيج"
+                width="700"
+                height="500"
+                loading="lazy"
+                decoding="async"
+                class="product-image w-full h-full object-cover"
+              >
+              <span class="absolute top-3 right-3 bg-darkBg/90 text-gold text-xs font-bold px-3 py-1.5 rounded-lg border border-gold/20">
+                الفئة الرابعة
+              </span>
+            </div>
+
+            <div class="p-5 flex flex-col flex-1">
+              <h3 class="text-lg font-extrabold text-white mb-3">الكوفرتات والألحفة</h3>
+              <p class="text-gray-400 text-sm leading-7 flex-1">
+                تعرّف على الأطقم والألحفة المتاحة وتفاصيل كل منتج.
+              </p>
+              <a
+                href="https://wa.me/201000090216"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن الكوفرتات والألحفة المتاحة."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-5 w-full flex items-center justify-center gap-2 bg-gold/10 hover:bg-gold text-gold hover:text-black font-bold py-3 rounded-xl transition text-sm"
+              >
+                <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+                استفسر عن المنتجات
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="text-center text-gray-500 text-xs leading-6 mt-7">
+          الصور المعروضة للتوضيح فقط. يُرجى التأكد من توفر المنتجات الفعلية
+          وأسعارها ومواصفاتها من المعرض.
+        </p>
+      </div>
+    </section>
+
+    <!-- Branches -->
+    <section id="branches" class="py-16 sm:py-20 bg-cardBg/40 border-y border-gold/10">
+      <div class="container mx-auto px-4 sm:px-6">
+
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="text-gold font-bold text-sm block mb-3">معلومات التواصل</span>
+          <h2 class="section-heading text-2xl sm:text-4xl font-black text-white">
+            فروع المعرض
+          </h2>
+          <p class="text-gray-400 text-sm sm:text-base leading-7 mt-5">
+            يمكنك الاستفسار عن العنوان ومواعيد العمل قبل التوجه إلى أي فرع.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+
+          <!-- Mansoura -->
+          <article class="bg-cardBg p-6 sm:p-8 rounded-2xl border border-gold/20 shadow-xl flex flex-col">
+            <div class="flex items-center gap-4 mb-6">
+              <span class="w-12 h-12 shrink-0 rounded-xl bg-gold/10 text-gold flex items-center justify-center text-xl border border-gold/20">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              </span>
+              <div>
+                <h3 class="text-xl font-extrabold text-white">فرع المنصورة</h3>
+                <p class="text-sm text-gray-400 mt-1">محافظة الدقهلية</p>
+              </div>
+            </div>
+
+            <div class="flex-1">
+              <p class="text-gray-300 text-sm leading-7">
+                <strong class="block text-white mb-1">العنوان المتداول:</strong>
+                شارع المشاية السفلية، بجوار وكالة المنصورة.
+              </p>
+
+              <p class="mt-4 text-xs text-gray-400 leading-6 bg-darkBg/60 p-3 rounded-lg">
+                العنوان يحتاج إلى تأكيد من إدارة المعرض قبل النشر النهائي.
+              </p>
+            </div>
+
+            <div class="space-y-3 mt-6 pt-5 border-t border-white/10">
+              <a
+                href="https://wa.me/201000090216"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن عنوان ومواعيد فرع المنصورة."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded-xl transition text-sm"
+              >
+                <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i>
+                الاستفسار عن فرع المنصورة
+              </a>
+
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Dongwan+Mansoura+Egypt"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full flex items-center justify-center gap-2 border border-gold/30 hover:bg-gold/10 text-gold font-semibold py-3 px-4 rounded-xl transition text-sm"
+              >
+                <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+                البحث على خرائط Google
+              </a>
+            </div>
+          </article>
+
+          <!-- Damietta -->
+          <article class="bg-cardBg p-6 sm:p-8 rounded-2xl border border-gold/20 shadow-xl flex flex-col">
+            <div class="flex items-center gap-4 mb-6">
+              <span class="w-12 h-12 shrink-0 rounded-xl bg-gold/10 text-gold flex items-center justify-center text-xl border border-gold/20">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              </span>
+              <div>
+                <h3 class="text-xl font-extrabold text-white">فرع دمياط</h3>
+                <p class="text-sm text-gray-400 mt-1">محافظة دمياط</p>
+              </div>
+            </div>
+
+            <div class="flex-1">
+              <p class="text-gray-300 text-sm leading-7">
+                <strong class="block text-white mb-1">العنوان المتداول:</strong>
+                كورنيش النيل، بين جامع البحر والبنزينة.
+              </p>
+
+              <p class="mt-4 text-xs text-gray-400 leading-6 bg-darkBg/60 p-3 rounded-lg">
+                العنوان يحتاج إلى تأكيد من إدارة المعرض قبل النشر النهائي.
+              </p>
+            </div>
+
+            <div class="space-y-3 mt-6 pt-5 border-t border-white/10">
+              <a
+                href="https://wa.me/201000052311"
+                data-wa
+                data-message="السلام عليكم، أود الاستفسار عن عنوان ومواعيد فرع دمياط."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded-xl transition text-sm"
+              >
+                <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i>
+                الاستفسار عن فرع دمياط
+              </a>
+
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Dongwan+Damietta+Egypt"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full flex items-center justify-center gap-2 border border-gold/30 hover:bg-gold/10 text-gold font-semibold py-3 px-4 rounded-xl transition text-sm"
+              >
+                <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+                البحث على خرائط Google
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="text-center text-gray-500 text-xs leading-6 mt-6">
+          روابط الخرائط الحالية روابط بحث عامة وليست إحداثيات مؤكدة للفرعين.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-14 sm:py-16">
+      <div class="container mx-auto px-4 sm:px-6">
+        <div class="relative overflow-hidden rounded-3xl border border-gold/25 bg-gradient-to-br from-cardBg to-darkBg p-7 sm:p-12 text-center">
+          <div class="absolute -top-16 -left-16 w-48 h-48 bg-gold/10 blur-3xl rounded-full" aria-hidden="true"></div>
+
+          <div class="relative z-10 max-w-2xl mx-auto">
+            <span class="text-gold text-3xl mb-4 block" aria-hidden="true">
+              <i class="fa-brands fa-whatsapp"></i>
+            </span>
+
+            <h2 class="text-2xl sm:text-3xl font-black text-white mb-4">
+              تبحث عن منتج معين؟
+            </h2>
+
+            <p class="text-gray-400 text-sm sm:text-base leading-7 mb-7">
+              تواصل للاستفسار عن المقاسات والألوان والأسعار والتوافر قبل الشراء.
+            </p>
+
+            <a
+              href="https://wa.me/201000090216"
+              data-wa
+              data-message="السلام عليكم، أود الاستفسار عن منتجات دون جوان للمفروشات."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold px-7 py-3.5 rounded-xl transition"
+            >
+              <i class="fa-brands fa-whatsapp text-xl" aria-hidden="true"></i>
+              تواصل عبر واتساب
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-darkBg border-t border-gold/20 pt-10 pb-24 sm:pb-8">
+    <div class="container mx-auto px-4 sm:px-6">
+
+      <div class="flex flex-col items-center text-center">
+        <a href="#hero" class="flex items-center gap-3 mb-4 rounded-lg" aria-label="العودة إلى أعلى الصفحة">
+          <span class="w-10 h-10 rounded-full gold-gradient text-black font-black text-xl flex items-center justify-center">
+            D
+          </span>
+          <span class="text-xl sm:text-2xl font-extrabold text-gold">
+            دون جوان للمفروشات
+          </span>
+        </a>
+
+        <p class="text-gray-400 text-sm leading-7 max-w-xl mb-6">
+          استفسر عن فئات المفروشات المنزلية والمنتجات المتاحة
+          من خلال قنوات التواصل الخاصة بالنشاط.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-3 mb-6">
+          <a
+            href="mailto:dongwan.tex@yahoo.com"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-white/10 text-gray-300 hover:text-gold hover:border-gold/40 transition text-sm"
+          >
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            البريد الإلكتروني
+          </a>
+
+          <a
+            href="https://m.facebook.com/DongwanTex/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-white/10 text-gray-300 hover:text-gold hover:border-gold/40 transition text-sm"
+          >
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+            فيسبوك
+          </a>
+
+          <a
+            href="https://wa.me/201000090216"
+            data-wa
+            data-message="السلام عليكم، أود التواصل مع دون جوان للمفروشات."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-white/10 text-gray-300 hover:text-gold hover:border-gold/40 transition text-sm"
+          >
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            واتساب
+          </a>
+        </div>
+
+        <p class="text-gray-500 text-xs leading-6 mb-6">
+          بيانات التواصل والعناوين المعروضة تحتاج إلى مراجعة واعتماد إدارة النشاط.
+        </p>
+      </div>
+
+      <div class="border-t border-white/10 pt-5 text-center text-xs text-gray-500">
+        <p>© <span id="current-year"></span> دون جوان للمفروشات — نموذج تصميم تجريبي مقترح</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Floating WhatsApp -->
+  <a
+    href="https://wa.me/201000090216"
+    data-wa
+    data-message="السلام عليكم، أود الاستفسار عن منتجات دون جوان للمفروشات."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="sm:hidden fixed bottom-4 left-4 z-40 w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-xl border border-white/20 transition"
+    aria-label="التواصل عبر واتساب"
+  >
+    <i class="fa-brands fa-whatsapp text-3xl" aria-hidden="true"></i>
+  </a>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const menuButton = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const menuIcon = document.getElementById("menu-icon");
+      const mobileLinks = document.querySelectorAll(".mobile-nav-link");
+      const desktopBreakpoint = window.matchMedia("(min-width: 768px)");
+
+      function setMenuOpen(open) {
+        if (!menuButton || !mobileMenu || !menuIcon) return;
+
+        mobileMenu.classList.toggle("hidden", !open);
+        mobileMenu.inert = !open;
+        mobileMenu.setAttribute("aria-hidden", String(!open));
+        menuButton.setAttribute("aria-expanded", String(open));
+        menuButton.setAttribute(
+          "aria-label",
+          open ? "إغلاق القائمة الرئيسية" : "فتح القائمة الرئيسية"
+        );
+
+        menuIcon.classList.toggle("fa-bars", !open);
+        menuIcon.classList.toggle("fa-xmark", open);
+      }
+
+      if (menuButton && mobileMenu) {
+        menuButton.addEventListener("click", () => {
+          const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+          setMenuOpen(!isOpen);
+        });
+
+        mobileLinks.forEach((link) => {
+          link.addEventListener("click", () => setMenuOpen(false));
+        });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+
+            if (isOpen) {
+              setMenuOpen(false);
+              menuButton.focus();
+            }
+          }
+        });
+
+        document.addEventListener("click", (event) => {
+          const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+
+          if (
+            isOpen &&
+            !mobileMenu.contains(event.target) &&
+            !menuButton.contains(event.target)
+          ) {
+            setMenuOpen(false);
+          }
+        });
+
+        desktopBreakpoint.addEventListener("change", (event) => {
+          if (event.matches) setMenuOpen(false);
+        });
+      }
+
+      // إنشاء رسائل واتساب من النص العربي بصورة موحدة.
+      // يجب تأكيد أرقام الهواتف مع صاحب النشاط قبل النشر.
+      document.querySelectorAll("a[data-wa][data-message]").forEach((link) => {
+        const originalUrl = new URL(link.href);
+
+        if (originalUrl.hostname !== "wa.me") return;
+
+        const message = link.dataset.message;
+        link.href =
+          "https://wa.me/" +
+          originalUrl.pathname.replace(/^\/+/, "") +
+          "?text=" +
+          encodeURIComponent(message);
+      });
+
+      const yearElement = document.getElementById("current-year");
+
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+      }
+    })();
+  </script>
+
+</body>
+</html>
